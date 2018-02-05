@@ -44,7 +44,7 @@ function open($dir){
     $rez = '';
 
     $path = trim($dir, '/');
-
+    $rez .= '<label>Текущий путь:&nbsp;&nbsp;&nbsp;'.$path.'</label>';
     if ($dir = @opendir($path)) {
         while (false !== ($file = readdir($dir))) {
             if ($file == '.' || $file == '..') continue;

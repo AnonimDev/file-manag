@@ -34,8 +34,13 @@
     text-align: left;
     width: 100%;
 }
-select.sel{
+select{
     width: 15%;
+    margin: 0 10px 10px 10px !important;
+}
+.fl{
+    width: 100%;
+    display: flex;
     align-self: flex-end;
-    margin: 0 0 10px 0 !important;
+    justify-content: flex-end;
 }
